@@ -1,0 +1,152 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    width: 99%;
+}
+/* https://marketifythemes.net/tailwind/elisc/index.html  */
+.bg-left{
+    background-color: rgb(147, 172, 172);
+    width: 325px;
+    height: 99vh;
+
+
+}
+.img-parent-div{
+    height: 170px;
+    position: relative;
+}
+
+.img-child-div{
+    top: 27px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 96px;
+}
+
+.img-child-div img{
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+}
+
+.img-child2-div{
+    top: 100px;
+}
+.hov{
+    color: white;
+    
+}
+
+.hov:hover{
+    color: black;
+    border: 1px solid bisque;
+    background-color: rgb(221, 225, 229);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #130F49;
+}
+.aa{
+    color: #130F49;
+    padding-left: 10px;
+
+}
+
+.aa:hover{
+    text-decoration: underline;
+    color: brown;
+    
+}
+p{
+    color: #55527C;
+}
+.bg-btn{
+    background-color: #130f49;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hov1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.hov2:hover{
+    background-color: #130f49 !important;
+    color: white !important; 
+
+}
+.hov3:hover{
+    background-color: #130f49 !important;
+    color: white;
+    transform: scale(1.2);
+    border-radius: 50%;
+}
+.tranparentImg{
+    width: 608px;
+    height: 570px;
+    margin-top: 10%;
+}
+
+.skills-div{
+    height: 180px;
+    width: 30%;
+    margin: 10px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.sikls-child
+{
+    /* background-color: #55527C; */
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+}
+.sikls-child h3 {
+   font-size: 22px;
+   font-weight: bold;
+}
+.sikls-child p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* portpholio   */
+.owl-arrows{
+    float: right;
+    font-size: 32px;
+    margin-right: 52px;
+}
+
+.slider-div{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+}
+.slider-div img{
+    height: 398px;
+    width: auto;
+}
+.carousel-caption {
+    
+   background-color: rgb(143, 172, 161);
+   width: auto;
+}
+.carousel-caption button {
+    
+   
+}
